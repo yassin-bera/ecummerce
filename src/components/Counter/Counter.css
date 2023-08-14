@@ -1,0 +1,25 @@
+.counter__box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.counter__image__container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+    background-color: #000000;
+    border-radius: 8px;
+}
+.counter__text__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.counter__image__container img{
+    width: 2rem;
+    height: 2rem;
+}

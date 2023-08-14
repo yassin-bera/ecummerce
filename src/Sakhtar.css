@@ -1,0 +1,32 @@
+.Sakhtar__conatiner{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top : 4rem;
+}
+.sakhtar__box{
+  width: 80%;
+  background-color: #ffffff;
+  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 1rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+.manger__box__container{
+  width: 100%;
+  margin: 0 auto; 
+ 
+}
+.System__management__grid{
+  width: 60%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 1rem;
+  margin: 0 auto;
+}

@@ -1,0 +1,105 @@
+/* .line__maker{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+} */
+.Main__card__news{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 4rem;
+}
+.row__maker__flex{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.icons__box__holder{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.main__grid__container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 75%;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    grid-row-gap: 2rem;
+    row-gap: 2rem;
+    column-gap: 2rem;
+    grid-column-gap: 2rem;
+    
+}
+.samane__suggest{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+.icon__slider__container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+
+}
+.icon__slider__container__nested{
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-x: scroll;
+    scroll-behavior: smooth !important;
+    touch-action: pan-y;
+    transform: translate3d(0px, 0px, 0px);
+    transition-duration: 0ms;
+}
+.icon__slider__container__nested::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .icon__slider__container__nested {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+  /* /////////////////////////////////////////// */
+.main__slider{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.slider__Holder{
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Main__counter{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0.5rem;
+}
+.Main__counter__nested{
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 1rem;
+}

@@ -1,0 +1,35 @@
+.row__box__container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-top: 4rem;
+
+}
+.row__box{
+    width: 77%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #ececec;
+    padding-right: 3rem;
+    border-radius: 5px;
+    height: 15rem;
+}
+.row__box p{
+    width: 60%;
+    font-size: 15px;
+    font-family: vazir;
+    color: #000;
+    text-align: right;
+}
+.row__box img{
+    width: 40%;
+    border: none;
+    outline: none;
+    text-align: left;
+    position: absolute;
+    left: 0rem;
+}

@@ -1,0 +1,40 @@
+.text__container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+}
+.text__container div{
+    width: 85%;
+}
+.text__container p{
+    font-size: 1rem;
+    font-weight: 500;
+    color: #000000;
+    font-family: vazir;
+}
+.duty__center{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 1rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem
+}
+.managers__container{
+    display: grid;
+    width: 100%;
+    padding-top: 40px;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    grid-template-columns: repeat(4,1fr);
+    justify-items: center;
+}
+.managers__container :first-child {
+    grid-column: 1/-1;
+    grid-row: 1/2;
+}

@@ -1,0 +1,16 @@
+.slider__icon__holder{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 1rem;
+    /* width: 50%; */
+    width: 450px;
+}
+.slider__icon__holder img{
+    height: 50px;
+}
+.slider__icon__text{
+    font-size: 15px;
+    font-family: vazir;
+    color: black;
+}

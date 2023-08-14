@@ -1,0 +1,73 @@
+.manager__item{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+}
+.manager__information{
+    width: fit-content;
+    position: relative;
+}
+.manager__image{
+    background-color: #2464ae;
+    border-radius: 100%;
+    width: 250px;
+    height: 250px;
+    box-shadow: 5px 9px 0 3px #133359;
+    padding: 25px 0 0;
+    overflow: hidden;
+}
+.manager__phone{
+    width: 160px;
+    height: 30px;
+    position: absolute;
+    top: 0;
+    color: #ffffff;
+    right: -17%;
+    border-radius: 0 5px 5px 68%;
+    background-color: #2464ae;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+.manager__name{
+    padding: 0 15%;
+    position: absolute;
+    bottom: -4px;
+    right: 14%;
+    font-size: 25px;
+    border-radius: 5px 0 90% 5px;
+    background-color: #133359;
+    color: #fff;
+}
+.manager__title{
+    padding-top: 10px;
+    width: 100%;
+    font-size: 12px;
+    text-align: end;
+    margin-left: -25px;
+    font-weight: 600;
+    color: #ffffff;
+    text-align: center;
+}
+.manager__image  img{
+transform: translateY(0);    
+width: 90%;
+}
+.phone_assis{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 14px;
+}
+.name__ass{
+    font-weight: bolder;
+    padding: 5px 0;
+    background-color: #133359;
+    width: 140px;
+    border-radius: 0 0 10px 0;
+    font-size: 16px;
+    
+}

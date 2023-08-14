@@ -1,0 +1,105 @@
+.suggestBtnStyle{
+    background-color: #2464ae;
+    outline: none;
+    border: none;
+    border-radius: 0 10px 10px 0;
+    color: #ffffff;
+    font-size: 15px;
+    font-family: vazir;
+    padding: 10px 40px;
+}
+.complaintBtnStyle{
+    background-color: #ccc;
+    outline: none;
+    border: none;
+    border-radius: 10px 0px 0px 10px;
+    color: #133359;
+    font-size: 15px;
+    font-family: vazir;
+    padding: 10px 40px;
+}
+button{
+    cursor: pointer;
+}
+.select__active{
+    background-color: #2464ae;
+    color: #ffffff;
+}
+.select__active2{
+    background-color: #ccc;
+    color: #000000;
+}
+.news__archive__btn{
+    width: 10%;
+    height: 45px;
+    border-radius: 8px;
+    background-color: #2464ae;
+    color: #ffffff;
+    font-family: vazir;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+.samane__box__btn{
+    width: 20%;
+    height: 40px;
+    border-radius: 8px;
+    background-color: #ffffff;
+    color: #000000;
+    font-family: vazir;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-size: 12px;
+}
+.publish__input__copy__style{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 2rem;
+    width : 3rem;
+    border-radius: 8px 0 0 8px;
+    background-color: #d5dbe3;
+    color: #000000;
+    font-family: vazir;
+    outline: none;
+    border: none;
+    font-weight: 700;
+}
+.publish__print__btn__style{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 2rem;
+    width : 3rem;
+    border-radius: 8px;
+    background-color: #d5dbe3;
+    color: #000000;
+    font-family: vazir;
+    outline: none;
+    border: none;
+    font-weight: 700;
+}
+.news__line__btn{
+    border-radius: 10px;
+    background-color: #2464ae;
+    color: #ffffff;
+    font-family: vazir;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-size: 10px;
+    padding: 0.2rem 1rem;
+}

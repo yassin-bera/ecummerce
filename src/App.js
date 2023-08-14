@@ -1,25 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import {BrowserRouter as Router, Route, Routes} from "react-router-dom";
+// import Layout from "./Layout/Layout";
+import Assistance from "./Assistance";
+import Sakhtar from "./Sakhtar";
+import Suggestion from "./Suggestion";
+import Main from "./Main";
+import SingleNews from "./Pages/singleNews";
+import Chart from "./Chart";
+import AllNews from "./AllNews";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const App = (props) =>{
+    return(
+      <Routes>
+        <Route path="/assistance" element={<Assistance/>}/>
+        <Route path="/sakhtar" element={<Sakhtar/>}/>
+        <Route path="/suggestion" element={<Suggestion />} />
+        <Route path="/" element={<Main />} />
+        <Route path="/news/:id" element={<SingleNews />} />
+        <Route path="/chart" element={<Chart />} />
+        <Route path="/allnews" element={<AllNews />} />
+      </Routes>
+    )
 }
-
 export default App;
+
+
+

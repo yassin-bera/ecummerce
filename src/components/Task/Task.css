@@ -1,0 +1,15 @@
+.task__container{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 80%;
+    padding: 0.3rem 1rem 0.5rem 0;
+    border-radius: 4px;
+    /* background-color: #ebf0f6; */
+    background-color: #ffffff;
+}
+.task__container a{
+  text-decoration: none;
+  color: #000;
+  font-size: 14px;
+}

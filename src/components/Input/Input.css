@@ -1,0 +1,33 @@
+
+input{
+    border: none;
+    outline: none;
+    padding: 10px;
+    background-color: #ebf0f6;
+    border-radius: 5px;
+}
+.suggest__send__input{
+    background-color: #133359;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    color: #ffffff;
+    grid-column: 1/2;
+    grid-row: 4/5;
+    cursor: pointer;
+}
+.suggest__upload__input{
+    display: none;
+}
+.suggest__title__input{
+    grid-column: 2/4;
+}
+.suggest__descript__input{
+    grid-column: 2/4;
+    grid-row: 2/4;
+}
+input::placeholder{
+    font-size: 12px;
+    font-family: vazir;
+    color: #000000;
+}

@@ -1,0 +1,11 @@
+.button__res{
+    padding: 10px 50px;
+    border-radius: 5px;
+    background-color: #2464ae;
+    font-size: 13px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #fff;
+    font-family: vazir;
+    cursor: pointer;
+}

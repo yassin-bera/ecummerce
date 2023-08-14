@@ -1,0 +1,21 @@
+.sarbarg{
+    width: 100%;
+    height: 8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #133358;
+    row-gap: 15px;
+
+}
+.sarbarg h1{
+    font-size: 25px;
+    font-family: vazir;
+    color: #ffffff;
+}
+/* .sarbarg h2{
+    font-size: 15px;
+    font-family: vazir;
+    color: #ffffff;
+} */

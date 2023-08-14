@@ -1,0 +1,24 @@
+.proposal__item__container{
+    width: 250px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    border: 3px solid #133359;
+}
+.proposal__item__text{
+    font-size: 20px;
+    margin: 10px 0 25px;
+    color: #133359;
+}
+.proposal__item__number{
+    font-size: 12px;
+    /* margin: 10px 0 25px; */
+    color: #133359;
+}
+.proposal__item__container img{
+    height: 25%;
+
+}
