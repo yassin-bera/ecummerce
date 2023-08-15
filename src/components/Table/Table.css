@@ -1,0 +1,53 @@
+.table{
+    overflow: hidden;
+}
+.margin{
+    margin-right: 10%;
+    margin-left: 10%;
+}
+table{
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: 1px solid #eef2f7;
+    margin-bottom: 20px;
+    border-radius: 12px;
+}
+table thead {
+    background-color: #eef2f7;
+}
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+table thead th[rowspan="2"]:first-child {
+    border: 1px solid #e2e2e2;
+}
+table th {
+    border: 1px solid #e2e2e2;
+    padding: 10px;
+    text-align: center;
+}
+table thead p {
+    color: #7f8c9a;
+}
+
+table p {
+    font-weight: 400;
+    font-size: 13px;
+}
+table tbody {
+    color: #133358;
+}
+table button {
+    transition: all .5s;
+    background-color: #eef2f7;
+    padding: 7.5px 16px;
+    border-radius: 8px;
+    font-family: vazir;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    color: #133358;
+
+}

@@ -8,9 +8,11 @@ import Main from "./Main";
 import SingleNews from "./Pages/singleNews";
 import Chart from "./Chart";
 import AllNews from "./AllNews";
-
+// import Tostify from "./components/Tostify/Tostify";
+import MizKhedmat from "./MizKhedmat";
 const App = (props) =>{
-    return(
+
+  return(
       <Routes>
         <Route path="/assistance" element={<Assistance/>}/>
         <Route path="/sakhtar" element={<Sakhtar/>}/>
@@ -19,8 +21,10 @@ const App = (props) =>{
         <Route path="/news/:id" element={<SingleNews />} />
         <Route path="/chart" element={<Chart />} />
         <Route path="/allnews" element={<AllNews />} />
+        <Route path="/miz" element={<MizKhedmat/>} />
       </Routes>
     )
+
 }
 export default App;
 

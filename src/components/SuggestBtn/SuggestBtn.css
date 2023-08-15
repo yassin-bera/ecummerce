@@ -1,5 +1,5 @@
 .suggestBtnStyle{
-    background-color: #2464ae;
+    background-color: #ccc;
     outline: none;
     border: none;
     border-radius: 0 10px 10px 0;
@@ -21,13 +21,13 @@
 button{
     cursor: pointer;
 }
-.select__active{
+.co{
     background-color: #2464ae;
     color: #ffffff;
 }
-.select__active2{
-    background-color: #ccc;
-    color: #000000;
+.cr{
+    background-color: #2464ae;
+    color: #ffffff;
 }
 .news__archive__btn{
     width: 10%;

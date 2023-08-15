@@ -91,3 +91,24 @@
     margin-top: 0;
     margin-bottom: 0;
 }
+.suggest__box__error{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    row-gap: 0.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+.ShowErorr{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 1rem;
+    align-items: center;
+    background-color: rgb(110, 110, 110);
+    border: 1px solid #ff7171;
+    width: 400px;
+    border-radius: 8px;
+}
